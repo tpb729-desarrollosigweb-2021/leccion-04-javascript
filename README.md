@@ -113,7 +113,7 @@ cita = "'Solo sé que no sé nada...', Sócrates";
 nombreCompleto = "John" + " " + "Doe"; // resultado: "John Doe"   
 ```
 
-#### Boolenos
+#### Booleanos
 Tienen dos posibles valores: verdadero (```true```) o falso (```false```).
 
 ```javascript
@@ -151,7 +151,54 @@ perro.nombre; // Resultado: 'Lassie'
 perro.edad; // Resultado: 7
 ```
 
-
+### Funciones
+**Declaración**
 
 ```javascript
+unction [nombre-función] ([arg1], [arg2], ..., [argn]) {       
+  [cuerpo-función]
+  
+  return [valor-retorno]
+}
+```
+
+**Ejemplo**
+```javascript
+function cuadrado (numero) {
+  c = numero * numero;
+  
+  return c;
+}
+
+cantidad = cuadrado(8);
+```
+
+### Condicionales
+#### if
+
+**Sintaxis**
+```javascript
+if ([condición]) {
+  [código a ejecutarse si la condición es verdadera];       
+}
+```
+
+**Ejemplo**
+```javascript
+var x = 2, y = 4;
+if (x < y) {
+  alert("x es menor o igual que y");
+}
+```
+
+#### if-else
+
+**Sintaxis**
+```javascript
+
+```
+
+**Ejemplo**
+```javascript
+
 ```
