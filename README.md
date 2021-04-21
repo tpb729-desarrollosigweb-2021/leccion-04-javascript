@@ -152,17 +152,16 @@ perro.edad; // Resultado: 7
 ```
 
 ### Funciones
-**Declaración**
-
+Declaración
 ```javascript
-unction [nombre-función] ([arg1], [arg2], ..., [argn]) {       
+function [nombre-función] ([arg1], [arg2], ..., [argn]) {       
   [cuerpo-función]
   
   return [valor-retorno]
 }
 ```
 
-**Ejemplo**
+Ejemplo
 ```javascript
 function cuadrado (numero) {
   c = numero * numero;
@@ -175,15 +174,14 @@ cantidad = cuadrado(8);
 
 ### Condicionales
 #### if
-
-**Sintaxis**
+Sintaxis
 ```javascript
 if ([condición]) {
   [código a ejecutarse si la condición es verdadera];       
 }
 ```
 
-**Ejemplo**
+Ejemplo
 ```javascript
 var x = 2, y = 4;
 if (x < y) {
@@ -192,13 +190,95 @@ if (x < y) {
 ```
 
 #### if-else
+Sintaxis
+```javascript
+if ([condición]) {
+  [código a ejecutarse si la condición es verdadera];       
+} else {
+  [código a ejecutarse si la condición es falsa];       
+}
+```
 
-**Sintaxis**
+Ejemplo
+```javascript
+var x = 2, y = 4;
+if (x < y) {
+  alert("x es menor o igual que y");
+} else {
+  alert("x es mayor o igual que y");
+}
+```
+
+#### if - else if - else
+Sintaxis
+```javascript
+if ([condición-1]) {
+  [código a ejecutarse si la condición-1 es verdadera];
+} else if [condición-n]{
+  [código a ejecutarse si la condición-n es verdadera];
+} else {
+  [código a ejecutarse si todas las condiciones son falsas];        
+}
+```
+
+Ejemplo
+```javascript
+var x = 2, y = 4;
+if (x < y) {
+  alert("x es menor o igual que y");
+} else if (x > y) {
+  alert("x es mayor que y");
+} else {
+  alert("x es igual a y");
+}
+```
+
+#### switch
+Sintaxis
+```javascript
+switch ([expresión]) {
+  case [opción-1]:
+    [código a ejecutarse para la opción-1]
+    break;
+  case [opción-n]:
+    [código a ejecutarse para la opción-n]
+    break;
+  default:
+    [código a ejecutarse si no se cumple ninguna opción]
+}
+```
+```break``` detiene la ejecución e impide que las otras opciones sean evaluadas.
+
+Ejemplo
+```javascript
+codigoMes = 1;
+switch (codigoMes) {
+  case 1:
+    nombreMes = "Enero";
+    break;
+  case 2:
+    nombreMes = "Febrero";
+    break;
+  case 3:
+    nombreMes = "Marzo";
+    break;                        
+  default:
+    nombreMes = "Otro";
+}
+alert(nombreMes);
+```
+
+
+
+
+
+#### if - else if - else
+Sintaxis
 ```javascript
 
 ```
 
-**Ejemplo**
+Ejemplo
 ```javascript
 
 ```
