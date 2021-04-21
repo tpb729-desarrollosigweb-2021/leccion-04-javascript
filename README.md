@@ -338,7 +338,6 @@ do {
 } while (i <= 3);
 ```
 
-**
 Ejercicios
 Implemente las siguientes funciones el JavaScript. En el código HTML, implemente para cada una un botón que realice llamados de prueba e imprima los resultados con ```alert()```.
 
@@ -347,4 +346,3 @@ Implemente las siguientes funciones el JavaScript. En el código HTML, implement
 3. Una función que reciba un número, correspondiente a la edad de una persona, y retorne una hilera indicando si la persona es menor de edad (< 18), adulto (>= 18 y < 65) o adulto mayor (>= 65).
 4. Una función que reciba un arreglo de números y retorne el promedio de esos números.
 5. Una función que reciba un arreglo de números y retorne la suma de los cuadrados de esos números.
-**
