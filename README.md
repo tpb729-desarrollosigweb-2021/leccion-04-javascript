@@ -54,7 +54,6 @@ El elemento [```script```](https://developer.mozilla.org/en-US/docs/Web/HTML/Ele
 ```
 
 ## Sintaxis de JavaScript
-
 ### Comentarios
 Para varias líneas:
 ```javascript
@@ -70,6 +69,87 @@ var i = 1; // contador inicializado en 1
 var j = 2; // contador inicializado en 2 
 ```
 
+### Declaración e inicialización de variables
+Se declaran con la palabra reservada ```var``` y se inicializar con el operador ```=```.
+
+```javascript
+var lenguaje;
+var numeroAureo, pi;
+var esBisiesto = false;                                
+
+lenguaje = "JavaScript";
+numeroAureo = 1.61803, pi = 3.14;
+```
+
+El operador ```=``` se usa también para actualizar los valores de las variables, después de inicializarlas.
+
+### Tipos de datos
+#### Numéricos
+Incluye números tanto enteros como decimales.
+
+```javascript
+var cantidadEstudiantes = 12;
+var pi = 3.14;
+
+x1 = 1, x2 = 2, x3 = 4, x3 = 8, x4 = 16;
+
+suma = 10 + 20; resta = 20 - 2;
+multiplicacion = 2 * 3; divison = 2.4 * 4.7;
+
+i = 10; j = 20;
+i++; // Resultado: 11
+j--; // Resultado: 19
+```
+
+#### Textuales
+Son hileras de texto escritas entre comillas simples o dobles.
+
+```javascript
+var continente = "América";
+var pais = "Costa Rica", provincia = 'Heredia';
+
+cita = "'Solo sé que no sé nada...', Sócrates";
+
+nombreCompleto = "John" + " " + "Doe"; // resultado: "John Doe"   
+```
+
+#### Boolenos
+Tienen dos posibles valores: verdadero (```true```) o falso (```false```).
+
+```javascript
+var esBisiesto = true;
+var esLunes = false;
+
+// "Y" lógico (AND)
+2 > 1 && 2 == (1 + 1); // Resultado: true;
+
+// "O" lógico (OR)
+1 > 2 || 4 < 3; // Resultado: false;
+
+// "No" lógico (NOT)
+!(2 > 1); // Resultado: false;
+```
+
+#### Arreglos (*arrays*)
+Sus elementos se separan con comas y se encierran entre paréntesis cuadrados (```[]```). Sus índices (i.e. posiciones) comienzan en 0.
+
+```javascript
+var nombres = ['Carlos', 'Lucía', 'Jorge'];
+var numeros = [20, 9, 10.3];
+
+nombres[0]; // Resultado: 'Carlos'
+numeros[2]; // Resultado: 10.3
+```
+
+#### Objetos
+Son estructuras compuestas por listas de tuplas de la forma ```propiedad:valor```.
+
+```javascript
+var perro = {nombre:'Lassie', raza:'Collie', sexo:'Femenino', edad:7 };       
+
+perro.nombre; // Resultado: 'Lassie'
+perro.edad; // Resultado: 7
+```
 
 
 
