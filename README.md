@@ -35,7 +35,7 @@ JavaScript (JS) es un lenguaje de programación utilizado para añadir interacti
 </html>
 ```
 # Conceptos básicos
-## El elemento script
+## El elemento script de HTML
 El elemento [```script```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) se utiliza para incluir código de algún lenguaje de programación, típicamente JavaScript, aunque también usarse con otros lenguajes y sintaxis (ej. [JSON](https://www.json.org/json-en.html)).
 
 ```html
@@ -51,4 +51,27 @@ El elemento [```script```](https://developer.mozilla.org/en-US/docs/Web/HTML/Ele
 <script src="https://maps.googleapis.com/maps/api/js"></script> 
 
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+```
+
+## Sintaxis de JavaScript
+
+### Comentarios
+Para varias líneas:
+```javascript
+/* Este es un
+   comentario de
+   varias líneas 
+*/
+```
+
+Para una línea:
+```javascript
+var i = 1; // contador inicializado en 1       
+var j = 2; // contador inicializado en 2 
+```
+
+
+
+
+```javascript
 ```
