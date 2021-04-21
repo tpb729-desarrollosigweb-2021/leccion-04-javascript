@@ -271,6 +271,7 @@ alert(nombreMes);
 ### Ciclos
 #### for
 Sintaxis
+```javascript
 for ([expresión-inicial];[condición]; [expresión-incremento]) {          
   [cuerpo-ciclo]
 }
