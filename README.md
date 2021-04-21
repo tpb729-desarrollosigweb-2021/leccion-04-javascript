@@ -268,17 +268,71 @@ switch (codigoMes) {
 alert(nombreMes);
 ```
 
-
-
-
-
-#### if - else if - else
+### Ciclos
+#### for
 Sintaxis
-```javascript
-
+for ([expresión-inicial];[condición]; [expresión-incremento]) {          
+  [cuerpo-ciclo]
+}
 ```
 
 Ejemplo
 ```javascript
+// Imprime los cuadrados de i, para i en [1..3]
+for (i = 1; i <= 3; i++) {          
+  alert(i * i);
+}
+```
 
+#### while
+Sintaxis
+```javascript
+while ([condición]) {          
+  [cuerpo-ciclo]
+}
+```
+
+Ejemplo
+```javascript
+// Imprime los cuadrados de i, para i en [1..3]           
+var i = 1;
+while (i <= 3) {          
+  alert(i * i);
+}
+```
+
+#### for..in
+Sintaxis
+```javascript
+for ([variable] in [objeto]) {          
+  [cuerpo-ciclo]
+}
+```
+
+Ejemplo
+```javascript
+// Imprime los valores de las propiedades de un objeto
+var perro = {nombre:'Lassie', raza:'Collie', sexo:'Femenino', edad:7 };           
+for (i in perro) {          
+  alert(perro[i]);
+  i++;
+}
+```
+
+#### do..while
+Sintaxis
+```javascript
+do {          
+  [cuerpo-ciclo]
+} while ([condición]);
+```
+
+Ejemplo
+```javascript
+// Imprime los cuadrados de i, para i en [1..3]           
+var i = 1;
+do {          
+  alert(i * i);
+  i++;
+} while (i <= 3);
 ```
