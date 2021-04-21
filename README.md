@@ -14,7 +14,6 @@ JavaScript (JS) es un lenguaje de programación utilizado para añadir interacti
 * Y muchas otras cosas más...
 
 ## El programa "Hola mundo" en JavaScript
-
 ```html
 <!DOCTYPE html>
 <html lang="es">
@@ -22,9 +21,9 @@ JavaScript (JS) es un lenguaje de programación utilizado para añadir interacti
         <title>Hola mundo</title>
         <meta charset="UTF-8"> 
         <script>
-            /* Función que imprime "¡Hola mundo!" */
+            /* Función que imprime "Hola mundo" */
             function holaMundo () {
-                alert("¡Hola mundo!");
+                alert("Hola mundo");
             }        
         </script>
     </head>
@@ -35,4 +34,21 @@ JavaScript (JS) es un lenguaje de programación utilizado para añadir interacti
     </body>
 </html>
 ```
+# Conceptos básicos
+## El elemento script
+El elemento [```script```](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) se utiliza para incluir código de algún lenguaje de programación, típicamente JavaScript, aunque también usarse con otros lenguajes y sintaxis (ej. [JSON](https://www.json.org/json-en.html)).
 
+```html
+<script>
+    /* Función que imprime la hilera "Hola mundo" */
+    function holaMundo () {
+        alert("¡Hola mundo!");
+    }        
+</script>
+
+<script src="js/misfunciones.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script> 
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+```
